@@ -1,0 +1,150 @@
+#header1	 {
+			 display:flex;
+			 justify-content:space-between;
+			 background-color:#5e2129;
+			 width:70%;
+}
+.nav	{background-color:black;
+		 width:70%;
+ 		  
+}
+
+.grigio	{width: 70%;
+		 background-color:gray;
+
+
+}
+
+
+a:link {
+  		color: white;
+  		list-style: none;
+ 	    text-decoration:none;
+  		font-size:1em;
+  		font-weight:bold;
+		 word-spacing:5px;
+		list-style:none;
+}
+
+
+a:visited {
+  color: white;
+}
+
+
+a:hover {
+  color: white;
+}
+
+
+a:active {
+  color: white;
+}
+.list	{ 
+		  background-color:black;
+		  color: white;
+
+
+		 
+}
+
+ 
+.l2    { list-style:none;
+		  display: inline;
+}
+
+#upperlogo	  {
+				display:flex;
+				justify-content:space-between;
+
+
+}
+
+#containerwrapper {display:flex;
+				   flex-wrap:wrap;
+				   width:60%;
+				  
+
+
+
+}
+#containerwrapper2 {display:flex;
+					flex-wrap:wrap;
+				    
+				 
+}
+
+.container				{display:flex;
+						flex-wrap:wrap;
+						align-content:space-between;
+						padding: 3px;				         
+}
+		
+
+.container div {
+	background-color:black;
+	color:white;
+	margin: 3px;
+
+}
+
+
+.container2		{display:flex;
+				flex-wrap:wrap;
+				
+				 		 
+}
+.image {
+	width: 30%
+}
+
+.image img {
+	width:100%
+}
+
+
+.container2 div {
+	background-color:black;
+	color:white;
+	margin: 3px;
+}
+
+ #banner2			{position:absolute;
+ 					 margin-left:780px;
+ 					 margin-top:50px;
+ 					 
+
+ 					  
+ }				
+
+ #banner2 			 {position:absolute;
+ 					 margin-left:-780px;
+ 					 margin-top:-50px;
+ 					 
+
+ 					  
+ }				
+
+
+#footercontainer	{display:flex;
+					 width:70%;
+ 				  	 justify-content:space-between;
+					 background-color:black;
+
+}
+
+footer p		{display:inline;
+				 color: white;
+				 
+}
+
+#federico		{margin-top:5px;
+}
+ 
+article         {background-color: red;
+}
+
+@media only screen and (min-width:480px)
+body {
+{background-color:lightblue;
+}
