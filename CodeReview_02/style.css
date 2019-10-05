@@ -1,0 +1,198 @@
+#header1 {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    background-color: #5e2129;
+    width: 100%;
+}
+
+#banner1 {
+
+}
+
+.nav {
+    background-color: black;
+    width: 100%;
+}
+
+#upperlogo {
+    display: flex;
+    align-items:flex-start;
+
+}
+@media only screen and (max-width: 480px) {
+     #banner1 {display: none;  
+    }
+}
+
+
+p {font-size:1em;
+
+}
+#hour {display:flex;
+       justify-content:flex-end;
+}       
+
+
+#grey {
+    width: 85%;
+    background-color: gray;
+    color:black;
+    margin: 5px;
+}
+#grey2 {background-color: gray;
+    color:black;
+    margin: 5px;
+}
+
+/* ------------------a------------------------------------------------ */
+a:link {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    word-spacing: 5px;
+    list-style: none;
+    
+}
+
+
+a:visited {
+    color: white;
+}
+
+
+a:hover {
+    color: white;
+}
+
+
+a:active {
+    color: white;
+}
+
+/* ----------------------------------------------------------------------------------
+ */
+.wrapper {display:flex;
+
+}
+.container {width:85%;
+            padding-right:5%;
+ }
+.row {display:flex; 
+    justify-content:space-between;   
+}
+
+
+.image {
+        width:30%;
+        background-color:black;
+        color:white;
+        
+}
+#shownoshow {display:none;
+             
+}
+
+@media only screen and (max-width: 480px) {
+     #shownoshow {display:block;
+
+    }
+}
+@media only screen and (max-width: 480px) {
+     .image {width:48%;  
+      margin:1%;            
+    }
+}
+
+@media only screen and (max-width: 480px) {
+     #shownoshow img {height:100%;       
+    }
+}
+@media only screen and (max-width: 480px) {
+     .row {flex-wrap:wrap;
+
+
+    }
+}
+
+.image img {width:100%;
+}
+
+.row2 {display:flex;
+       flex-wrap:wrap;
+       justify-content:space-between;
+       width:85%;
+}
+.image2 {width:45%;
+        background-color:black;
+        color:white;
+        margin-top:10px;        
+}
+.image2 img {width:100%;
+}
+.container2 {display:flex;
+            justify-content:space-between;
+}
+
+
+
+/* -----------------------------------------------------------------
+ */
+
+#banner2 {width:10%;
+}
+#banner2 img {width:100%;
+}
+@media only screen and (max-width: 480px) {
+     #banner2 {display: none;  
+    }
+    }
+
+#banner3 {margin:20px auto;
+          text-align:center;
+}
+@media only screen and (max-width: 480px) {
+     #banner3 {display: none;  
+    }
+    }
+
+#banner3 img {width:80%;
+}
+
+#banner4 {width:10%;
+
+}
+@media only screen and (max-width: 480px) {
+     #banner4 {display: none;  
+    }
+}
+#banner4 img {width:100%;
+
+}
+
+
+/* ---------------------------------------------------------------------
+ */#footercontainer {
+    background-color: black;
+}
+
+#logofooter {
+    display:flex;
+    justify-content:flex-end;
+}
+
+footer p {
+    display: inline;
+    color: white;
+
+}
+
+#federico {
+    margin-top: 120px;
+    padding-bottom:20px;
+    text-align:center;
+
+}
+
